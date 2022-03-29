@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 14px;
+}
+
+header {
+    background-color: goldenrod;
+}
+
+.banner a,
+.banner a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.main_content {
+    background: linear-gradient( to bottom, rgba(22, 22, 22, 0.25) 0%, rgba(22, 22, 22, 0.25) 100%), url(../img/background\ image.webp) no-repeat center/cover;
+}
+
+.logo img {
+    max-width: 220px;
+    max-height: 180px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo img {
+        max-width: 140px;
+        max-height: 110px;
+    }
+}
+
+.content {
+    color: white;
+    padding: 62px;
+    padding-left: 70px;
+    height: 70vh;
+}
+
+.content h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+}
+
+.hiring {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+
+#insta_follow {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+#insta_follow:hover {
+    background-color: white;
+    color: black;
+}
+
+#submit_application {
+    background-color: black;
+    color: white;
+}
+
+#submit_application:hover {
+    background-color: white;
+    color: black;
+}
+
+.social_media {
+    background-color: goldenrod;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-family: Lato, Arial, sans-serif;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.cookie {
+    font-family: "Nunito Sans";
+}
+
+.bg-custom {
+    background-color: goldenrod;
+}
+
+.button-fixed {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    border-radius: 18px;
+    transition: opacity 1s ease;
+}
+
+.cookie p {
+    font-size: 13px;
+}
+
+.hidden {
+    opacity: 0;
+}
